@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/specialrecons",
+      "handler": "specialrecon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/specialrecons/count",
+      "handler": "specialrecon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/specialrecons/:id",
+      "handler": "specialrecon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/specialrecons",
+      "handler": "specialrecon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/specialrecons/:id",
+      "handler": "specialrecon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/specialrecons/:id",
+      "handler": "specialrecon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

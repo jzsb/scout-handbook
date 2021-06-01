@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reconforces",
+      "handler": "reconforce.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconforces/count",
+      "handler": "reconforce.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconforces/:id",
+      "handler": "reconforce.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reconforces",
+      "handler": "reconforce.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reconforces/:id",
+      "handler": "reconforce.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reconforces/:id",
+      "handler": "reconforce.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

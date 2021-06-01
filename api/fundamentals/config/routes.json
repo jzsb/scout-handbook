@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fundamentals",
+      "handler": "fundamentals.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fundamentals/count",
+      "handler": "fundamentals.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fundamentals/:id",
+      "handler": "fundamentals.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fundamentals",
+      "handler": "fundamentals.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fundamentals/:id",
+      "handler": "fundamentals.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fundamentals/:id",
+      "handler": "fundamentals.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reconmethods",
+      "handler": "reconmethods.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconmethods/count",
+      "handler": "reconmethods.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconmethods/:id",
+      "handler": "reconmethods.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reconmethods",
+      "handler": "reconmethods.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reconmethods/:id",
+      "handler": "reconmethods.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reconmethods/:id",
+      "handler": "reconmethods.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

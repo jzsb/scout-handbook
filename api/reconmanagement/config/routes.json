@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reconmanagements",
+      "handler": "reconmanagement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconmanagements/count",
+      "handler": "reconmanagement.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconmanagements/:id",
+      "handler": "reconmanagement.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reconmanagements",
+      "handler": "reconmanagement.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reconmanagements/:id",
+      "handler": "reconmanagement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reconmanagements/:id",
+      "handler": "reconmanagement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

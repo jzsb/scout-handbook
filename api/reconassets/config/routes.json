@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reconassets",
+      "handler": "reconassets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconassets/count",
+      "handler": "reconassets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reconassets/:id",
+      "handler": "reconassets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reconassets",
+      "handler": "reconassets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reconassets/:id",
+      "handler": "reconassets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reconassets/:id",
+      "handler": "reconassets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

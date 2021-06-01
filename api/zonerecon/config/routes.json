@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zonerecons",
+      "handler": "zonerecon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zonerecons/count",
+      "handler": "zonerecon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zonerecons/:id",
+      "handler": "zonerecon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zonerecons",
+      "handler": "zonerecon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zonerecons/:id",
+      "handler": "zonerecon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zonerecons/:id",
+      "handler": "zonerecon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

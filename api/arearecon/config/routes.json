@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/arearecons",
+      "handler": "arearecon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/arearecons/count",
+      "handler": "arearecon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/arearecons/:id",
+      "handler": "arearecon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/arearecons",
+      "handler": "arearecon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/arearecons/:id",
+      "handler": "arearecon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/arearecons/:id",
+      "handler": "arearecon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recontechniques",
+      "handler": "recontechniques.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recontechniques/count",
+      "handler": "recontechniques.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recontechniques/:id",
+      "handler": "recontechniques.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recontechniques",
+      "handler": "recontechniques.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recontechniques/:id",
+      "handler": "recontechniques.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recontechniques/:id",
+      "handler": "recontechniques.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
