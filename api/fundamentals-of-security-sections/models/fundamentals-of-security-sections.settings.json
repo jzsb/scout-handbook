@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fundamentals_of_security_sections",
+  "info": {
+    "name": "Fundamentals of Security Sections"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fundamentals-of-reconnaissance-sections",
+      "handler": "fundamentals-of-reconnaissance-sections.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fundamentals-of-reconnaissance-sections/count",
+      "handler": "fundamentals-of-reconnaissance-sections.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fundamentals-of-reconnaissance-sections/:id",
+      "handler": "fundamentals-of-reconnaissance-sections.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fundamentals-of-reconnaissance-sections",
+      "handler": "fundamentals-of-reconnaissance-sections.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fundamentals-of-reconnaissance-sections/:id",
+      "handler": "fundamentals-of-reconnaissance-sections.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fundamentals-of-reconnaissance-sections/:id",
+      "handler": "fundamentals-of-reconnaissance-sections.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

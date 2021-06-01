@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms_of_reconnaissance_s",
+  "info": {
+    "name": "Forms of Reconnaissance "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms_of_security_sections",
+  "info": {
+    "name": "Forms of Security Sections"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}
