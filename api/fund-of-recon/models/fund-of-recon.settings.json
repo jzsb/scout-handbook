@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fund_of_recons",
+  "info": {
+    "name": "Fund of Recon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.links"
+    }
+  }
+}

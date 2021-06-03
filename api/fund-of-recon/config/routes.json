@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fund-of-recons",
+      "handler": "fund-of-recon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fund-of-recons/count",
+      "handler": "fund-of-recon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fund-of-recons/:id",
+      "handler": "fund-of-recon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fund-of-recons",
+      "handler": "fund-of-recon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fund-of-recons/:id",
+      "handler": "fund-of-recon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fund-of-recons/:id",
+      "handler": "fund-of-recon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
