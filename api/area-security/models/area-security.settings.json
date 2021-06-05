@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "fundamentals",
+  "collectionName": "area_securities",
   "info": {
-    "name": "Fundamentals",
-    "description": ""
+    "name": "AreaSecurity"
   },
   "options": {
     "increments": true,
@@ -17,10 +16,6 @@
     },
     "details": {
       "type": "richtext"
-    },
-    "fundamentals": {
-      "type": "uid",
-      "targetField": "title"
     }
   }
 }

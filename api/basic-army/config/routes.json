@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/basic-army",
+      "handler": "basic-army.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/basic-army",
+      "handler": "basic-army.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/basic-army",
+      "handler": "basic-army.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

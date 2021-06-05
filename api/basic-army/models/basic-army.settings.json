@@ -1,9 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "fundamentals",
+  "kind": "singleType",
+  "collectionName": "basic_armies",
   "info": {
-    "name": "Fundamentals",
-    "description": ""
+    "name": "BasicArmy"
   },
   "options": {
     "increments": true,
@@ -16,11 +15,7 @@
       "type": "string"
     },
     "details": {
-      "type": "richtext"
-    },
-    "fundamentals": {
-      "type": "uid",
-      "targetField": "title"
+      "type": "string"
     }
   }
 }

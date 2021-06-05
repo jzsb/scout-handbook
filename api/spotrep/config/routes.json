@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/spotreps",
+      "handler": "spotrep.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/spotreps/count",
+      "handler": "spotrep.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/spotreps/:id",
+      "handler": "spotrep.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/spotreps",
+      "handler": "spotrep.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/spotreps/:id",
+      "handler": "spotrep.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/spotreps/:id",
+      "handler": "spotrep.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

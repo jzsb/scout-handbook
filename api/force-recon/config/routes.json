@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/force-recons",
+      "handler": "force-recon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/force-recons/count",
+      "handler": "force-recon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/force-recons/:id",
+      "handler": "force-recon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/force-recons",
+      "handler": "force-recon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/force-recons/:id",
+      "handler": "force-recon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/force-recons/:id",
+      "handler": "force-recon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "fundamentals",
+  "collectionName": "spotreps",
   "info": {
-    "name": "Fundamentals",
-    "description": ""
+    "name": "Spotrep"
   },
   "options": {
     "increments": true,
@@ -17,10 +16,6 @@
     },
     "details": {
       "type": "richtext"
-    },
-    "fundamentals": {
-      "type": "uid",
-      "targetField": "title"
     }
   }
 }

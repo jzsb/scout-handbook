@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/commanders-securities",
+      "handler": "commanders-security.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/commanders-securities/count",
+      "handler": "commanders-security.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/commanders-securities/:id",
+      "handler": "commanders-security.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/commanders-securities",
+      "handler": "commanders-security.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/commanders-securities/:id",
+      "handler": "commanders-security.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/commanders-securities/:id",
+      "handler": "commanders-security.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

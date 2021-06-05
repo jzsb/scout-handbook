@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/security-fundamentals",
+      "handler": "security-fundamentals.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/security-fundamentals/count",
+      "handler": "security-fundamentals.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/security-fundamentals/:id",
+      "handler": "security-fundamentals.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/security-fundamentals",
+      "handler": "security-fundamentals.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/security-fundamentals/:id",
+      "handler": "security-fundamentals.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/security-fundamentals/:id",
+      "handler": "security-fundamentals.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
