@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "personal_reps",
   "info": {
-    "name": "BasicArmy"
+    "name": "PersonalRep"
   },
   "options": {
     "increments": true,

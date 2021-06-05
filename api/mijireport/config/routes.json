@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/basic-armies",
-      "handler": "basic-army.find",
+      "path": "/mijireports",
+      "handler": "mijireport.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/count",
-      "handler": "basic-army.count",
+      "path": "/mijireports/count",
+      "handler": "mijireport.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.findOne",
+      "path": "/mijireports/:id",
+      "handler": "mijireport.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/basic-armies",
-      "handler": "basic-army.create",
+      "path": "/mijireports",
+      "handler": "mijireport.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.update",
+      "path": "/mijireports/:id",
+      "handler": "mijireport.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.delete",
+      "path": "/mijireports/:id",
+      "handler": "mijireport.delete",
       "config": {
         "policies": []
       }

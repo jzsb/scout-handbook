@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "patrolreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Patrolrep"
   },
   "options": {
     "increments": true,

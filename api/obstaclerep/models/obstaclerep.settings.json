@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "obstaclereps",
   "info": {
-    "name": "BasicArmy"
+    "name": "obstaclerep"
   },
   "options": {
     "increments": true,

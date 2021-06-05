@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/basic-armies",
-      "handler": "basic-army.find",
+      "path": "/patrolreps",
+      "handler": "patrolrep.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/count",
-      "handler": "basic-army.count",
+      "path": "/patrolreps/count",
+      "handler": "patrolrep.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.findOne",
+      "path": "/patrolreps/:id",
+      "handler": "patrolrep.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/basic-armies",
-      "handler": "basic-army.create",
+      "path": "/patrolreps",
+      "handler": "patrolrep.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.update",
+      "path": "/patrolreps/:id",
+      "handler": "patrolrep.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.delete",
+      "path": "/patrolreps/:id",
+      "handler": "patrolrep.delete",
       "config": {
         "policies": []
       }

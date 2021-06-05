@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "epwreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Epwrep"
   },
   "options": {
     "increments": true,

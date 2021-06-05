@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "mijireports",
   "info": {
-    "name": "BasicArmy"
+    "name": "Mijireport"
   },
   "options": {
     "increments": true,

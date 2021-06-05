@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "sitreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Sitrep"
   },
   "options": {
     "increments": true,

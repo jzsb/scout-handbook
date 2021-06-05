@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/basic-armies",
-      "handler": "basic-army.find",
+      "path": "/bypass-reps",
+      "handler": "bypass-rep.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/count",
-      "handler": "basic-army.count",
+      "path": "/bypass-reps/count",
+      "handler": "bypass-rep.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.findOne",
+      "path": "/bypass-reps/:id",
+      "handler": "bypass-rep.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/basic-armies",
-      "handler": "basic-army.create",
+      "path": "/bypass-reps",
+      "handler": "bypass-rep.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.update",
+      "path": "/bypass-reps/:id",
+      "handler": "bypass-rep.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/basic-armies/:id",
-      "handler": "basic-army.delete",
+      "path": "/bypass-reps/:id",
+      "handler": "bypass-rep.delete",
       "config": {
         "policies": []
       }

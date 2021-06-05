@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "estats",
   "info": {
-    "name": "BasicArmy"
+    "name": "Estat"
   },
   "options": {
     "increments": true,

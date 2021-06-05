@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "battle_loss_reps",
   "info": {
-    "name": "BasicArmy"
+    "name": "BattleLossRep"
   },
   "options": {
     "increments": true,

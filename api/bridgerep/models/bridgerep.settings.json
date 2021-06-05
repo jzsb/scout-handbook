@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "bridgereps",
   "info": {
-    "name": "BasicArmy"
+    "name": "bridgerep"
   },
   "options": {
     "increments": true,

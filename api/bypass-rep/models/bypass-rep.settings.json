@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "bypass_reps",
   "info": {
-    "name": "BasicArmy"
+    "name": "BypassRep"
   },
   "options": {
     "increments": true,

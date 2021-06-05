@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "splashreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Splashrep"
   },
   "options": {
     "increments": true,

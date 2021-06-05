@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "medevac_requests",
   "info": {
-    "name": "BasicArmy"
+    "name": "MedevacRequest"
   },
   "options": {
     "increments": true,

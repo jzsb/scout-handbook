@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "crossreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "crossrep"
   },
   "options": {
     "increments": true,

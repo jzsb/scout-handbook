@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "pol_requests",
   "info": {
-    "name": "BasicArmy"
+    "name": "PolRequest"
   },
   "options": {
     "increments": true,

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "tcccs",
   "info": {
-    "name": "BasicArmy"
+    "name": "Tccc"
   },
   "options": {
     "increments": true,

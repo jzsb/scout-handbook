@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "polstatuses",
   "info": {
-    "name": "BasicArmy"
+    "name": "polstatus"
   },
   "options": {
     "increments": true,

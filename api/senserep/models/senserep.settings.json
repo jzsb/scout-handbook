@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "sensereps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Senserep"
   },
   "options": {
     "increments": true,

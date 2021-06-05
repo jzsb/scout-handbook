@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "ammoreps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Ammorep"
   },
   "options": {
     "increments": true,

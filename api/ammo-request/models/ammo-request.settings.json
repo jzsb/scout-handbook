@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "ammo_requests",
   "info": {
-    "name": "BasicArmy"
+    "name": "AmmoRequest"
   },
   "options": {
     "increments": true,

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "basic_armies",
+  "collectionName": "routereps",
   "info": {
-    "name": "BasicArmy"
+    "name": "Routerep"
   },
   "options": {
     "increments": true,
