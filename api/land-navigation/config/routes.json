@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/land-navigations",
+      "handler": "land-navigation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/land-navigations/count",
+      "handler": "land-navigation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/land-navigations/:id",
+      "handler": "land-navigation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/land-navigations",
+      "handler": "land-navigation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/land-navigations/:id",
+      "handler": "land-navigation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/land-navigations/:id",
+      "handler": "land-navigation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

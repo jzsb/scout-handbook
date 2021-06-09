@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "land_navigations",
+  "info": {
+    "name": "Land Navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}
