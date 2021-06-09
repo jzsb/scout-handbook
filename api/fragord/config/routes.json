@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fragords",
+      "handler": "fragord.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fragords/count",
+      "handler": "fragord.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fragords/:id",
+      "handler": "fragord.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fragords",
+      "handler": "fragord.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fragords/:id",
+      "handler": "fragord.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fragords/:id",
+      "handler": "fragord.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

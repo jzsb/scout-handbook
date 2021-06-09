@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapons",
+  "info": {
+    "name": "Weapon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/warnos",
+      "handler": "warno.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/warnos/count",
+      "handler": "warno.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/warnos/:id",
+      "handler": "warno.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/warnos",
+      "handler": "warno.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/warnos/:id",
+      "handler": "warno.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/warnos/:id",
+      "handler": "warno.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

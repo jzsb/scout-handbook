@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tlps",
+      "handler": "tlp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tlps/count",
+      "handler": "tlp.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tlps/:id",
+      "handler": "tlp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tlps",
+      "handler": "tlp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tlps/:id",
+      "handler": "tlp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tlps/:id",
+      "handler": "tlp.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
